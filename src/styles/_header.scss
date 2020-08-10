@@ -1,0 +1,17 @@
+$light-background: #8A2BE2;
+$dark-background: #4B0082;
+$text-color: #000000;
+
+.tabs {
+  display: flex;
+  background-color: $light-background;
+
+}
+
+.tabs *{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  color: white;
+
+}

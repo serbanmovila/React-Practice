@@ -1,0 +1,48 @@
+$light-background: #8A2BE2;
+$dark-background: #4B0082;
+$text-color: #000000;
+
+@mixin buttonStyle($fontSize) {
+  margin-top: 10px;
+  border-style: none;
+  background-color: $light-background;
+  color: white;
+  padding: 8px 0;
+  font-size: $fontSize;
+  font-family: SansSerif;
+}
+
+@mixin inputStyle($fontSize) {
+  margin: 5px 0;
+  font-size: $fontSize;
+}
+
+@mixin labelStyle($fontSize) {
+  margin: 5px 0;
+  font-size: $fontSize;
+}
+
+.addSong {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: 20px;
+  button{
+    @include buttonStyle(18px);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  input {
+    @include inputStyle(16px);
+  }
+  label {
+    @include labelStyle(16px);
+  }
+
+}
+
+img {
+  width: 15vw;
+  height: auto;
+}

@@ -1,0 +1,114 @@
+.tabs {
+  display: flex;
+  background-color: #8A2BE2;
+}
+
+.tabs * {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  color: white;
+}
+
+.addSong {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: 20px;
+}
+.addSong button {
+  margin-top: 10px;
+  border-style: none;
+  background-color: #8A2BE2;
+  color: white;
+  padding: 8px 0;
+  font-size: 18px;
+  font-family: SansSerif;
+}
+.addSong button:hover {
+  cursor: pointer;
+}
+.addSong input {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.addSong label {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+img {
+  width: 15vw;
+  height: auto;
+}
+
+table {
+  margin: 20px 0 20px 20px;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+}
+
+td, th {
+  font-size: 18px;
+  padding: 7px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.songDetails {
+  margin: 20px 0 20px 20px;
+  justify-content: center;
+  display: flex;
+}
+.songDetails .song {
+  display: flex;
+  flex-direction: column;
+}
+.songDetails .song img {
+  width: 30vh;
+}
+.songDetails .song .songText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.songDetails .song .songText h4, .songDetails .song .songText label {
+  font-size: 18px;
+}
+
+.modal {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 30vh;
+}
+.modal .updateModal {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+}
+.modal .updateModal button {
+  border: 0.1px solid black;
+  background-color: white;
+  margin-top: 10px;
+}
+.modal .updateModal label {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: SansSerif;
+}
+
+/*# sourceMappingURL=App.css.map */

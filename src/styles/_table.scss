@@ -1,0 +1,19 @@
+@mixin tableElement($fontSize) {
+  font-size: $fontSize;
+  padding: 7px;
+
+}
+
+table {
+  margin: 20px 0 20px 20px;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+}
+
+td, th {
+  @include tableElement(18px);
+  text-align: center;
+  vertical-align: center;
+}

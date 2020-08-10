@@ -1,0 +1,21 @@
+.songDetails {
+  margin: 20px 0 20px 20px;
+  justify-content: center;
+  display: flex;
+  .song {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 30vh;
+    }
+    .songText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h4, label {
+        font-size: 18px;
+      }
+    }
+
+  }
+}
